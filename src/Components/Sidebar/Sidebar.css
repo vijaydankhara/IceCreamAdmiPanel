@@ -1,0 +1,33 @@
+.sidebar{
+    width: 18%;
+    min-height: 100vh;
+    border: 1.5px solid black;
+    border-top: 0;
+}
+
+.sidebar-options{
+    padding-top: 50px;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #0905ff;
+    border-right: 0;
+    padding: 8px 10px;
+    border-radius: 3px 0px 0px 3px;
+    cursor: pointer;
+}
+.sidebar-option.active{
+background-color: rgb(224, 250, 242);
+border: 1px solid tomato;
+}
+@media (max-width:700px){
+    .sidebar-option p{
+        display: none;
+    }
+}
