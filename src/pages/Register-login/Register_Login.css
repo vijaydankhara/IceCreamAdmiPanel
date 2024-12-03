@@ -95,7 +95,7 @@ select:focus {
 .toggle-button {
   width: 100%;
   padding: 12px;
-  background-color: #4a90e2;
+  background-color: #2701fe;
   color: white;
   border: none;
   border-radius: 6px;
@@ -107,7 +107,7 @@ select:focus {
 
 .submit-button:hover,
 .toggle-button:hover {
-  background-color: #357abd;
+  background-color: #fc6203;
   transform: translateY(-2px);
 }
 
@@ -139,4 +139,6 @@ select:focus {
   .form-header h2 {
     font-size: 20px;
   }
-} */
+} 
+
+

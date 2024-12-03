@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/no-unknown-property */
 import React from "react";
 import "./Sidebar.css";
 import { NavLink } from "react-router-dom";
@@ -8,9 +10,16 @@ function Sidebar() {
     <div className="sidebar">
       <div className="sidebar-options">
       <NavLink to="/Register_Login" className="sidebar-option">
-          <i class="fa-solid fa-user"></i>
+      <i class="fa-solid fa-right-to-bracket"></i>
           <p>Login</p>
         </NavLink>
+
+        <NavLink to="/user_data" className="sidebar-option">
+          <i class="fa-solid fa-user"></i>
+          <p>Users</p>
+        </NavLink>
+
+
         <NavLink to="/product_add" className="sidebar-option">
         <i class="fa-brands fa-product-hunt"></i>
           <p>Add Product</p>

@@ -1,3 +1,18 @@
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: blue;
+  transition: all 0.3s ease;
+}
+
+h1:hover {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  color: #ff6347; 
+  text-shadow: 2px 2px 5px rgba(19, 3, 250, 0.2);
+}
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -11,3 +26,6 @@
 .navbar .profile {
   width: 40px;
 }
+
+
+
