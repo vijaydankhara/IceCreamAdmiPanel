@@ -29,3 +29,32 @@ h1:hover {
 
 
 
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-icon {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.admin-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
